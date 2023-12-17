@@ -38,7 +38,7 @@ export default function Product(props) {
           </button>
         </div>
       </div>
-      <div className="col-2">
+      <div className="col-2 m-3">
         {props.product.quantity * props.product.price}
       </div>
       <button
