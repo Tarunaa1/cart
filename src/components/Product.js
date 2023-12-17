@@ -6,7 +6,7 @@ export default function Product(props) {
       <div className="col-5">
         <h2>
           {props.product.name}
-          <span class="badge bg-secondary">₹{props.product.price}</span>
+          <span class="badge bg-secondary m-3">₹{props.product.price}</span>
         </h2>
       </div>
       <div className="col-3">
