@@ -9,7 +9,7 @@ export default function Product(props) {
           <span class="badge bg-secondary m-3">₹{props.product.price}</span>
         </h2>
       </div>
-      <div className="col-3">
+      <div className="col-2 m-3">
         <div
           class="btn-group"
           role="group"
